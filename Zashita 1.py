@@ -17,7 +17,7 @@ for char in fighters:
 for skill in skills:
     tots.append(skill['total'])
 
-print(names[0], 'VS', names[1])
+print(names[0],'(total:',tots[0],')', 'VS', names[1],'(total:',tots[1],')')
 time.sleep(1)
 print('...1...')
 time.sleep(0.5)
